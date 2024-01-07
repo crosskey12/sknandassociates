@@ -1,0 +1,383 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: "Helvetica Neue",sans-serif;
+    font-weight: lighter;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.52), rgba(16, 15, 15, 0.73)),url("./assets/backgroundherp.jpg");
+    background-size:cover;
+}
+.nameinfo{
+    background-color: transparent;
+    border-width: 0.2px;
+    border-radius: 2px ;
+    margin: 2%;
+}
+.submitbutton{
+    background-color: black;
+    -webkit-text-fill-color: white;
+    margin: 2%;
+}
+.submitbutton:hover{
+    background-color: rgb(49, 49, 49);
+}
+.emailinfo{
+    background-color: transparent;
+    border-width: 0.2px;
+    border-radius: 2px ;
+    margin: 2%;
+}
+.messageinfo{
+    background-color: transparent;
+    border-width: 0.2px;
+    border-radius: 2px ;
+    margin: 2%;
+    height: 80px;
+}
+.content {
+    width: 94%;
+    margin: 4em auto;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.logo {
+    line-height: 60px;
+    position: fixed;
+    float: left;
+    margin: 16px 46px;
+    color: #000000;
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.logoicon{
+    width: 150px;
+    height: 50px;
+    margin-bottom: 6px;
+    margin-left: 6px;
+}
+.herotext{
+    position: absolute;
+    bottom: 30%;
+    left: 5%;
+    font-weight: 600;
+    font-size: xxx-large;
+    color: black;
+    /* text-shadow: 1px 1px 5px #979494; */
+}
+.herosubtext{
+    margin-top: 30px;
+    position: absolute;
+    bottom: 22%;
+    left: 5%;
+    font-size: 1.15rem;
+    color: black;
+}
+.aboutus{
+    display: flex;
+    margin: 5%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 100px;
+    text-shadow: 0.1px 0.1px 30px #0000003d;
+    text-align: -webkit-center;
+}
+.aboutusheading{
+    margin: 30px;
+}
+.mission{
+    margin: 15px;
+    font-size: 1.5rem;
+}
+.services{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: -webkit-center;
+    background-color: #000000;
+    -webkit-text-fill-color: white;
+    margin-top: 5%;
+    /* margin-bottom: 5%; */
+    padding: 5%;
+    font-size: 1.5rem;
+    background-image: linear-gradient(360deg, rgb(255 255 255) 0.00%,rgb(0, 0, 0) 2.00%);
+}
+.servicessubtext{
+    margin: 3%;
+}
+.servicecard{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.servicetypes{
+    display: flex;
+    /* margin: 5%; */
+    margin-top: 5%;
+    /* margin-left: 5%; */
+    /* margin-right: 5%; */
+    justify-content: space-between;
+    justify-items: center;
+    column-gap: 7rem;
+}
+.fcard{
+    margin: 10px;
+    padding: 10px;
+    width: -webkit-fill-available;
+    text-align: left;
+}
+.fcard:hover{
+    box-shadow: 5px 5px 50px 0px #988ce4;
+    transition: 1s;
+}
+.fcardheading{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.industriessubtext{
+    margin: 3%;
+}
+.industries{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: -webkit-center;
+    /* background-color: #000000; */
+    /* -webkit-text-fill-color: white; */
+    /* margin-top: 5%; */
+    /* margin-bottom: 5%; */
+    padding: 5%;
+    font-size: 1.5rem;
+    /* background-color: #adb5bd14; */
+    /* background-color: #d3d3d333;
+    background-image: linear-gradient(to bottom, rgb(11 11 11 / 0%), rgb(168 168 168)); */
+    background-image: linear-gradient(180deg, rgb(255 255 255) 0.00%,rgb(0 0 0 / 0%) 2.00%),linear-gradient(0deg, rgb(255 255 255) 0.00%,rgb(0 0 0 / 0%) 2.00%),url('assets/bharath-g-s-aLGiPJ4XRO4-unsplash.jpg');
+}
+.industriessection{
+    display: grid;
+    /* align-items: center; */
+    /* flex-direction: column; */
+    /* text-align: -webkit-center; */
+    /* background-color: #000000; */
+    /* -webkit-text-fill-color: white; */
+    margin-top: 5%;
+    margin-bottom: 5%;
+    /* padding: 5%; */
+    /* font-size: 1.5rem; */
+    grid-row-gap: 5rem;
+    grid-column-gap: 10rem;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+}
+.icard{
+    background-color: white;
+    --bs-box-shadow-inset: black;
+    --bs-box-shadow-lg: black;
+    /* --bs-border-radius-2xl: white; */
+    border-radius: 15px;
+    padding: 7%;
+}
+.icard:hover{
+    box-shadow: 2px 2px 20px 0px #141414;
+    transition: 1s;
+}
+.icardheading{
+    margin-bottom: 1.7rem;
+}
+.ContactUs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 5%;
+    background-color: rgb(243, 242, 242);
+    background-image: linear-gradient(180deg, rgb(255 255 255) 0.00%,rgb(0 0 0 / 0%) 2.00%);
+}
+.contactusheading{
+
+}
+.contactussubtext{
+    margin:3%;
+}
+.contactusform{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+.contactussection{
+    display: grid;
+    justify-content: space-between;
+    grid-column-gap: 4rem;
+    grid-template-columns: 1fr 1fr;
+    width: -webkit-fill-available;
+}
+.contactusinfo{
+
+}
+.contactusinfosec{
+    margin:5%;
+}
+.footer{
+    background-color: #000;
+    align-items: center;
+    text-align: center;
+}
+.footericon{
+    width: 177.77px;
+    height: 100px;
+}
+.vl{
+    border-left: 6px solid rgb(0, 0, 0);
+    height: 275px;
+    align-self: center;
+    position: absolute;
+    left: 50%;
+}
+nav {
+    background-blend-mode: darken;
+    position: fixed;
+    width: 100%;
+    line-height: 60px;
+    background-color:transparent;
+}
+
+nav ul {
+    line-height: 60px;
+    list-style: none;
+    background: rgba(146, 31, 31, 0);
+    overflow: hidden;
+    color: #000000;
+    padding: 0;
+    text-align: right;
+    margin: 0;
+    padding-right: 40px;
+    transition: 1s;
+}
+nav.scrolled {
+    background-color: white; /* Change this to your desired background color */
+  }
+nav.black ul {
+    background: #000;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 16px 40px;;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+}
+
+.menu-icon {
+    line-height: 60px;
+    width: 100%;
+    background: #000;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 5px 5px;
+    cursor: pointer;
+    color: #000000;
+    display: none;
+}
+/* Mobile Styles */
+@media only screen and (max-width: 768px) {
+    .logo {
+     display: none;
+    }
+    .logo1{
+        display: flex;
+    }
+    .logoicon1{
+        width: 120px;
+        height: 50px;
+    }
+    nav ul {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease-out;
+    }
+  
+    nav ul li {
+      display: block;
+      text-align: center;
+      margin: 10px 0;
+    }
+  
+    .menu-icon {
+      display: block; /* Show the menu icon for smaller screens */
+    }
+  
+    nav.scrolled {
+      background-color: white; /* Adjust background color on scroll for smaller screens */
+    }
+  
+    nav.black ul {
+      background: white; /* Adjust background color for smaller screens */
+    }
+  
+    nav ul {
+      padding-right: 0; /* Adjust padding for smaller screens */
+    }
+    .herotext {
+      font-size: 2rem; /* Adjust hero text size for smaller screens */
+      bottom: 40%; /* Adjust positioning for smaller screens */
+    }
+  
+    .herosubtext {
+      font-size: 1rem; /* Adjust subtext size for smaller screens */
+      bottom: 28%; /* Adjust positioning for smaller screens */
+    }
+  
+    .aboutus {
+      padding: 50px 20px; /* Adjust padding for smaller screens */
+      font-size: 1rem;
+    }
+  
+    .services,
+    .industries{
+        padding: 5%;
+        font-size: 1rem;
+    }
+    .ContactUs {
+      padding: 0%; /* Adjust padding for smaller screens */
+      font-size: 1rem;
+    }
+  
+    .servicetypes {
+      flex-direction: column; /* Adjust flex direction for smaller screens */
+      column-gap: 0; /* Adjust column gap for smaller screens */
+    }
+  
+    .fcard {
+      width: 100%; /* Adjust card width for smaller screens */
+      margin: 10px 0; /* Adjust margin for smaller screens */
+    }
+  
+    .industriessection {
+      grid-template-columns: 1fr; /* Adjust grid layout for smaller screens */
+      grid-row-gap: 30px; /* Adjust row gap for smaller screens */
+    }
+  
+    .contactussection {
+      grid-template-columns: 1fr; /* Adjust grid layout for smaller screens */
+      grid-column-gap: 0; /* Adjust column gap for smaller screens */
+    }
+    .vl {
+      display: none; /* Hide vertical line for smaller screens */
+    }
+  
+    .footericon {
+      width: 150px; /* Adjust footer icon size for smaller screens */
+      height: auto; /* Adjust footer icon height for smaller screens */
+    }
+  }
+  
+  
